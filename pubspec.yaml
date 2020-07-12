@@ -1,7 +1,7 @@
 name: flutter_language_identification
 description: A flutter plugin for language identification using Google's ML Kit. This plugin is supported on iOS and Android.
-version: 0.0.1
-homepage: https://github.com/dlutton/flutter_language_identification
+version: 0.1.0
+homepage: https://github.com/dlutton/flutter_language_id
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
