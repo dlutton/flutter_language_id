@@ -2,4 +2,4 @@
 
 ## 0.0.1
 
-- Adding support for Android
+- Adding support for Android and iOS

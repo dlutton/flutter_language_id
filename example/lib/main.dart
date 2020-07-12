@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
+import 'package:flutter/material.dart';
 
 import 'package:flutter_language_identification/flutter_language_identification.dart';
 
@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   FlutterLanguageIdentification languageIdentification;
   String _text;
-  String _result = '';
+  dynamic _result = '';
 
   @override
   void initState() {
@@ -80,7 +80,7 @@ class _MyAppState extends State<MyApp> {
       alignment: Alignment.bottomCenter,
       padding: EdgeInsets.only(top: 100.0, left: 25.0, right: 25.0),
       child: Text(
-        _result,
+        _result.toString(),
       ));
 
   Widget _inputSection() => Container(
